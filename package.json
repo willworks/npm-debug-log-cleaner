@@ -1,0 +1,24 @@
+{
+  "name": "npm-debug-log-cleaner",
+  "version": "1.0.0",
+  "description": "npm-debug.log cleaner use in pre-commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willworks/npm-debug-log-cleaner.git"
+  },
+  "keywords": [
+    "npm-debug.log",
+    "npm",
+    "pre-commit"
+  ],
+  "author": "willworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willworks/npm-debug-log-cleaner/issues"
+  },
+  "homepage": "https://github.com/willworks/npm-debug-log-cleaner#readme"
+}
