@@ -2,13 +2,16 @@
   "name": "npm-debug-log-cleaner",
   "version": "1.0.0",
   "description": "npm-debug.log cleaner use in pre-commit",
-  "main": "index.js",
+  "main": "./bin/cleaner.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/willworks/npm-debug-log-cleaner.git"
+  },
+  "bin": {
+    "npm-debug-log-cleaner": "./bin/cleaner.js"
   },
   "keywords": [
     "npm-debug.log",
