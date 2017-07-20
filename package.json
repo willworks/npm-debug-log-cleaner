@@ -1,6 +1,6 @@
 {
   "name": "npm-debug-log-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm-debug.log cleaner use in pre-commit",
   "main": "./bin/cleaner.js",
   "scripts": {
