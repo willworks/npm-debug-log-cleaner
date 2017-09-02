@@ -1,22 +1,17 @@
 # npm-debug-log-cleaner
-npm-debug.log cleaner use in pre-commit
+clean npm-debug.log brefore commit
 
-
-### install
-```
-npm i -D npm-debug-log-cleaner
-```
-
-
-### use lint-staged
-
-```
-"lint-staged": {
-  "*.js": eslint
-}
+## Installation
+```js
+npm install husky // use husky to run precommit script
+npm install npm-debug-log-cleaner
 ```
 
-### config precommit script in package.json
+## Precommit configuration
+```js
+"precommit": "npm-debug-log-cleaner"
 ```
-"precommit": "npm-debug-log-cleaner && lint-staged"
-```
+
+## License
+
+  MIT
